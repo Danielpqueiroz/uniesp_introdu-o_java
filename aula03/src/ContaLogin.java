@@ -4,4 +4,41 @@ public class ContaLogin {
     private int anoNascimento;
     private String email;
     private String senha;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome, int x) {
+        if (x == 10){
+            this.nome = nome;
+        } else {
+            System.out.println("Codigo de alteração errado!");
+        }
+
+    }
+
+    public int getAnoNascimento() {
+        return anoNascimento;
+    }
+
+    public void setAnoNascimento(int anoNascimento) {
+        this.anoNascimento = anoNascimento;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 }
