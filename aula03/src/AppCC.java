@@ -3,7 +3,7 @@ public class AppCC {
 
     public static void main(String[] args) {
 
-        ContaCorrente cc1 = new ContaCorrente("Messi R. Batista");
+        ContaCorrente cc1 = new ContaCorrente("Daniel P. Queiroz");
 
         cc1.depositar(1000);
         cc1.sacar(205.78);
